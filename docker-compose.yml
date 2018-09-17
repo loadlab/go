@@ -1,0 +1,8 @@
+version: '3'
+services:
+  loadlab:
+    image: golang:1.8
+    tty: true
+    volumes:
+      - .:/go/src/loadlab
+    working_dir: /go/src/loadlab
